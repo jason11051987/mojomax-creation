@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 70px; /* Adjust based on the height of your navbar */
+    margin: 0;
+}
+
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+.description-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.description-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.description-section h1 {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: 5px solid #007bff;
+    padding-left: 15px;
+}
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 500px;
+    margin-bottom: 40px;
+}
+
+/* For larger screens, adjust as necessary */
+@media (min-width: 768px) {
+    .img-fluid {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+
+
+.text-right {
+    display: flex;
+    flex-direction: column; /* stack the items vertically */
+    align-items: flex-end; /* align items to the right */
+}
+
+.text-right .btn {
+    margin-bottom: 10px; /* add margin to space out the button and h4 */
+}
+
+.text-right h4 {
+    align-self: flex-start; /* align the h4 to the left */
+}
